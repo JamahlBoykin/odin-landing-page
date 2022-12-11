@@ -21,6 +21,8 @@ p {
 .section {
     max-width: 1000px;
     margin: 0px auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -65,7 +67,8 @@ p {
 
 .container-2 .section {
     display: flex;
-    padding: 90px 0px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .container-2 .hero-text {
@@ -118,22 +121,21 @@ p {
 
 
 
-.container-3 .section {
-}
-
 .container-3 h1 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
-    margin: 50px 0px;
+    padding: 50px 0px;
+    margin: 0;
 }
 
 .container-3 .boxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 45px;
+    padding-bottom: 115px;
 }
 
 .container-3 .box {
@@ -156,4 +158,33 @@ p {
 .container-3 .box p {
     color: #56585C;
     font-size: 18px;
+}
+
+
+
+
+.container-4 {
+    background-color: #E5E7EB;
+}
+
+.container-4 .section {
+    display: flex;
+    flex-direction: column;
+    max-width: 795px;
+}
+
+.container-4 p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 130px;
+}
+
+.container-4 strong {
+    color: #1F2937;
+    font-size: 24px;
+    align-self: flex-end;
+    padding-bottom: 130px;
+    margin-right: 50px;
 }

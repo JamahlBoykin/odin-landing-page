@@ -188,3 +188,53 @@ p {
     padding-bottom: 130px;
     margin-right: 50px;
 }
+
+
+
+
+
+.container-5 .content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    box-sizing: border-box;
+    min-height: 145px;
+    min-width: fit-content;
+    margin: 100px 0px;
+}
+
+.container-5 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 795px;
+    gap: 20px;
+    padding: 15px 30px;
+}
+
+.container-5 strong {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.container-5 p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.container-5 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    width: 135px;
+    min-height: 40px;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

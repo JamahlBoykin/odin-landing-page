@@ -2,6 +2,9 @@ body {
     font-family: Roboto, sans-serif;
     padding: 0;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -237,4 +240,23 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+.container-6 {
+    background-color: #1F2937;
+    margin-top: auto;
+}
+
+.container-6 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
 }
